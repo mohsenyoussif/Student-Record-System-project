@@ -9,9 +9,8 @@ typedef struct Student
 {
     char* name ;
     char* password;
-    char* year ;
     int id ;
-
+    int total_grade ;
 }Student_t;
 
 #endif //STUDENT_RECORD_SYSTEM_PROJECT_STRUCT_H

@@ -53,25 +53,42 @@ void admin_check(void)
 void admin_mode(void)
 {
     int choice =0;
+    int id =0;
     printf("**********Welcome To Admin mode**********\n");
     printf("To Add student record,Enter 1\n"
            "To Remove student record,Enter 2\n"
            "To Edit student record,Enter 3\n"
            "To View student record,Enter 4\n"
            "To View all records,Enter 5\n"
-           "To Edit admin password,Enter 6/n");
+           "To Edit admin password,Enter 6\n");
     scanf("%d",&choice);
     switch(choice)
     {
-        case 1 : Add_student_record();  break ;
+        case 1 : if(Add_student_record())
+                 {
+            printf("Student has been Added Successfully(*_*)\n");
+                 } else
+                 {
+                     printf("There is no space!!\n");
+                 }
+                 break ;
         case 2 : Remove_student_record();  break ;
         case 3 : Edit_student_record();  break ;
-        case 4 : View_student_record();  break ;
+        case 4 :  printf("Enter the ID\n");
+            scanf("%d",&id);
+            if(View_student_record(id)){
+
+            }else
+                {
+                    printf("sorry Wrong ID!!\n");
+                }
+            break ;
         case 5 : View_all_records();     break;
         case 6 : Edit_admin_password();  break ;
         default : printf("Wrong Choice!!,please Enter a correct choice & repeat the trial \n"); break;
 
     }
+    admin_mode();
 }
 void user_mode(void)
 {
