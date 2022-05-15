@@ -2,9 +2,13 @@
 // Created by mohsen on 5/3/2022.
 //
 #include <stdio.h>
+#include <string.h>
 #include "stdlib.h"
 #include "system.h"
-#include "admin_privileges.h"
+#include "struct.h"
+#include "privileges.h"
+extern int reserved_pos;
+extern Student_t student[NO_OF_STUDENTS];
 
 void choose_System(void) {
     int Local_choose = 0;
@@ -14,7 +18,7 @@ void choose_System(void) {
     if (Local_choose == 1) {
         admin_check();
     } else if (Local_choose == 2) {
-        user_mode();
+        user_check();
     }else if(Local_choose == 3){
         exit(1);
     }
@@ -25,7 +29,7 @@ void choose_System(void) {
 }
 
 void admin_check(void) {
-    static int trial = 4;
+    static int trial = 3;
     char Local_Password[10];
     if (trial == 0) {
         printf("Sorry !! You can't login as an admin!!");
@@ -46,7 +50,7 @@ void admin_check(void) {
 
 void admin_mode(void) {
 
-    printf("**********Welcome To Admin mode**********\n");
+    printf("\n**********Welcome To Admin mode**********\n");
     printf("To Add student record,Enter 1\n"
            "To Remove student record,Enter 2\n"
            "To Edit student name,Enter 3\n"
@@ -155,7 +159,81 @@ void admin_control() {
     admin_mode();
 }
 
-void user_mode(void) {
+void user_check(void) {
+ int id,i;
+ static int trial =3;
+ char password[20];
+  if(trial==0)
+  {
+      printf("\nYou have exceeded the maximum number of attempts\n");
+      exit(1);
+  }
+ printf("\nEnter your id :: ");
+    scanf("%d",&id);
+    printf("\n Enter your password::");
+    scanf("%s",password);
+    student[reserved_pos].password = (char *) malloc(strlen(password) + 1);
+    for(i=0;i<reserved_pos;i++)
+    {
+        if(id==student[i].id && strcmp(password,student[i].password)==0)
+        {
 
+            user_mode(id,password);
+
+        }
+        else
+        {
+            printf("\n Sorry !! The login failed, Try again\n");
+            --trial;
+            user_check();
+        }
+    }
+
+}
+void user_mode(int id,char* password) {
+    printf("\n**********Welcome To User mode**********\n");
+    printf("To view your record,Enter 1\n"
+           "To Edit your password,Enter 2\n"
+           "To return to main menu,Enter 3\n");
+    user_choice(id,password);
+}
+void user_choice(int id,char* password)
+{
+    int choice ;
+
+    char student_password[20];
+
+    scanf("%d",&choice);
+
+    switch (choice)
+    {
+
+          case 1 : if (View_student_record(id))
+        {
+            user_mode(id,password);
+        }else
+
+        {
+            printf("\nSorry!!login is failed , Try again\n");
+
+            user_check();
+        }break;
+        case 2 :
+           printf("Enter the new password of the student :-\n");
+            scanf("%s", student_password);
+            if (Edit_student_password(id, student_password)) {
+                printf("The password  of student with ID = %d is updated(*_*)\n", id);
+                user_mode(id,student_password);
+            } else {
+                printf("sorry Wrong ID!!\n");
+
+                user_check();
+            }
+            break;
+        case 3 :  choose_System();
+        default:  printf("Wrong Choice!!,please Enter a correct choice 1 or 2 & repeat the trial \n");
+        break;
+    }
+      user_check();
 }
 

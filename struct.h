@@ -5,6 +5,8 @@
 #ifndef STUDENT_RECORD_SYSTEM_PROJECT_STRUCT_H
 #define STUDENT_RECORD_SYSTEM_PROJECT_STRUCT_H
 
+#define NO_OF_STUDENTS     20
+
 typedef struct Student {
     char *name;
     char *password;
