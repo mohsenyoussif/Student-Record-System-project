@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.h
+
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/main.c
+stdio.h
+-
+stdio.h
+-
+struct.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h
+system.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.h
+admin_privileges.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.h
+
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h
+
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/stdlib.h
+system.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.h
+struct.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h
+admin_privileges.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.h
+
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.h
+

@@ -1,0 +1,3 @@
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/cmake-build-debug/CMakeFiles/Student_Record_System_project.dir
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
