@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/interface.c
+interface.h
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/interface.h
+
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/interface.h
+privileges.h
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/privileges.h
+stdio.h
+-
+stdlib.h
+-
+
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/main.c
+stdio.h
+-
+interface.h
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/interface.h
+
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/privileges.c
+privileges.h
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/privileges.h
+
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/privileges.h
+struct.h
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/struct.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/struct.h
+

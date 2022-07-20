@@ -1,5 +1,5 @@
 //
-// Created by mohsen on 5/3/2022.
+// Created by mohsen  on 5/7/2021.
 //
 
 #ifndef STUDENT_RECORD_SYSTEM_PROJECT_ADMIN_PRIVILEGES_H
@@ -9,7 +9,10 @@ void set_admin_password();
 
 int check_admin_password(char* password);
 
-int Add_student_record();
+int check_availability();
+
+int check_repeated_id(int id);
+int Add_student_record(int id , char* password ,char* name , int grade);
 
 int Remove_student_record(int id);
 

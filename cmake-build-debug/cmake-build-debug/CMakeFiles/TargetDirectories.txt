@@ -1,0 +1,3 @@
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/cmake-build-debug/CMakeFiles/Cpt_Maged.dir
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/mohsen/Self Study/embedded/Cpt.Maged/Cpt.Maged/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "struct.h"
 #include "system.h"
-#include "privileges.h"
+#include "admin_privileges.h"
 int main() {
     set_admin_password();
     printf("\n\n\n\n\n");
