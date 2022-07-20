@@ -4,7 +4,7 @@
 #include "stdlib.h"
 #include "stdio.h"
 #include "string.h"
-#include "admin_privileges.h"
+#include "privileges.h"
 #include "struct.h"
 
 #define safeFree(p) saferFree((void**)&(p))

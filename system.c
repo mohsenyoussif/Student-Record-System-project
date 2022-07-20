@@ -6,7 +6,7 @@
 #include "stdlib.h"
 #include "system.h"
 #include "struct.h"
-#include "admin_privileges.h"
+#include "privileges.h"
 
 static int check = 0;
 extern int reserved_pos;

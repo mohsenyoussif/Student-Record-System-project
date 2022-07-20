@@ -128,30 +128,6 @@ Student_Record_System_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/build
 .PHONY : Student_Record_System_project/fast
 
-admin_privileges.obj: admin_privileges.c.obj
-.PHONY : admin_privileges.obj
-
-# target to build an object file
-admin_privileges.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.obj
-.PHONY : admin_privileges.c.obj
-
-admin_privileges.i: admin_privileges.c.i
-.PHONY : admin_privileges.i
-
-# target to preprocess a source file
-admin_privileges.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.i
-.PHONY : admin_privileges.c.i
-
-admin_privileges.s: admin_privileges.c.s
-.PHONY : admin_privileges.s
-
-# target to generate assembly for a file
-admin_privileges.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.s
-.PHONY : admin_privileges.c.s
-
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -175,6 +151,30 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/main.c.s
 .PHONY : main.c.s
+
+privileges.obj: privileges.c.obj
+.PHONY : privileges.obj
+
+# target to build an object file
+privileges.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/privileges.c.obj
+.PHONY : privileges.c.obj
+
+privileges.i: privileges.c.i
+.PHONY : privileges.i
+
+# target to preprocess a source file
+privileges.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/privileges.c.i
+.PHONY : privileges.c.i
+
+privileges.s: privileges.c.s
+.PHONY : privileges.s
+
+# target to generate assembly for a file
+privileges.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student_Record_System_project.dir\build.make CMakeFiles/Student_Record_System_project.dir/privileges.c.s
+.PHONY : privileges.c.s
 
 system.obj: system.c.obj
 .PHONY : system.obj
@@ -209,12 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Student_Record_System_project
-	@echo ... admin_privileges.obj
-	@echo ... admin_privileges.i
-	@echo ... admin_privileges.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... privileges.obj
+	@echo ... privileges.i
+	@echo ... privileges.s
 	@echo ... system.obj
 	@echo ... system.i
 	@echo ... system.s

@@ -3,4 +3,4 @@ project(Student_Record_System_project C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Student_Record_System_project main.c struct.h system.h system.c admin_privileges.h admin_privileges.c)
+add_executable(Student_Record_System_project main.c struct.h system.h system.c privileges.h privileges.c)

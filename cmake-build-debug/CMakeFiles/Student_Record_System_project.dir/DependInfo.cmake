@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.c" "F:/mohsen/Self Study/embedded/c programing/Student Record System project/cmake-build-debug/CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.obj"
   "F:/mohsen/Self Study/embedded/c programing/Student Record System project/main.c" "F:/mohsen/Self Study/embedded/c programing/Student Record System project/cmake-build-debug/CMakeFiles/Student_Record_System_project.dir/main.c.obj"
+  "F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.c" "F:/mohsen/Self Study/embedded/c programing/Student Record System project/cmake-build-debug/CMakeFiles/Student_Record_System_project.dir/privileges.c.obj"
   "F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.c" "F:/mohsen/Self Study/embedded/c programing/Student Record System project/cmake-build-debug/CMakeFiles/Student_Record_System_project.dir/system.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

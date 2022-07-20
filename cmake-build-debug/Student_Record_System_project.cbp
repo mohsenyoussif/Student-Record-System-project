@@ -74,13 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.c">
-			<Option target="Student_Record_System_project"/>
-		</Unit>
-		<Unit filename="F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.h">
-			<Option target="Student_Record_System_project"/>
-		</Unit>
 		<Unit filename="F:/mohsen/Self Study/embedded/c programing/Student Record System project/main.c">
+			<Option target="Student_Record_System_project"/>
+		</Unit>
+		<Unit filename="F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.c">
+			<Option target="Student_Record_System_project"/>
+		</Unit>
+		<Unit filename="F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.h">
 			<Option target="Student_Record_System_project"/>
 		</Unit>
 		<Unit filename="F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h">

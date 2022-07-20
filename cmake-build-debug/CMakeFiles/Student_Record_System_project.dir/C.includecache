@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
-F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/main.c
+stdio.h
+-
+stdio.h
+-
+struct.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h
+system.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.h
+privileges.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.h
+
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.c
+stdlib.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/stdlib.h
+stdio.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/stdio.h
+string.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/string.h
+privileges.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.h
+struct.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h
+
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.h
 
 F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h
 
@@ -21,8 +45,8 @@ system.h
 F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.h
 struct.h
 F:/mohsen/Self Study/embedded/c programing/Student Record System project/struct.h
-admin_privileges.h
-F:/mohsen/Self Study/embedded/c programing/Student Record System project/admin_privileges.h
+privileges.h
+F:/mohsen/Self Study/embedded/c programing/Student Record System project/privileges.h
 
 F:/mohsen/Self Study/embedded/c programing/Student Record System project/system.h
 

@@ -91,31 +91,31 @@ CMakeFiles/Student_Record_System_project.dir/system.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Student_Record_System_project.dir/system.c.s"
 	D:\gcc64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "F:\mohsen\Self Study\embedded\c programing\Student Record System project\system.c" -o CMakeFiles\Student_Record_System_project.dir\system.c.s
 
-CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.obj: CMakeFiles/Student_Record_System_project.dir/flags.make
-CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.obj: ../admin_privileges.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\mohsen\Self Study\embedded\c programing\Student Record System project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.obj"
-	D:\gcc64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Student_Record_System_project.dir\admin_privileges.c.obj -c "F:\mohsen\Self Study\embedded\c programing\Student Record System project\admin_privileges.c"
+CMakeFiles/Student_Record_System_project.dir/privileges.c.obj: CMakeFiles/Student_Record_System_project.dir/flags.make
+CMakeFiles/Student_Record_System_project.dir/privileges.c.obj: ../privileges.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\mohsen\Self Study\embedded\c programing\Student Record System project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Student_Record_System_project.dir/privileges.c.obj"
+	D:\gcc64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Student_Record_System_project.dir\privileges.c.obj -c "F:\mohsen\Self Study\embedded\c programing\Student Record System project\privileges.c"
 
-CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.i"
-	D:\gcc64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "F:\mohsen\Self Study\embedded\c programing\Student Record System project\admin_privileges.c" > CMakeFiles\Student_Record_System_project.dir\admin_privileges.c.i
+CMakeFiles/Student_Record_System_project.dir/privileges.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Student_Record_System_project.dir/privileges.c.i"
+	D:\gcc64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "F:\mohsen\Self Study\embedded\c programing\Student Record System project\privileges.c" > CMakeFiles\Student_Record_System_project.dir\privileges.c.i
 
-CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.s"
-	D:\gcc64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "F:\mohsen\Self Study\embedded\c programing\Student Record System project\admin_privileges.c" -o CMakeFiles\Student_Record_System_project.dir\admin_privileges.c.s
+CMakeFiles/Student_Record_System_project.dir/privileges.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Student_Record_System_project.dir/privileges.c.s"
+	D:\gcc64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "F:\mohsen\Self Study\embedded\c programing\Student Record System project\privileges.c" -o CMakeFiles\Student_Record_System_project.dir\privileges.c.s
 
 # Object files for target Student_Record_System_project
 Student_Record_System_project_OBJECTS = \
 "CMakeFiles/Student_Record_System_project.dir/main.c.obj" \
 "CMakeFiles/Student_Record_System_project.dir/system.c.obj" \
-"CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.obj"
+"CMakeFiles/Student_Record_System_project.dir/privileges.c.obj"
 
 # External object files for target Student_Record_System_project
 Student_Record_System_project_EXTERNAL_OBJECTS =
 
 Student_Record_System_project.exe: CMakeFiles/Student_Record_System_project.dir/main.c.obj
 Student_Record_System_project.exe: CMakeFiles/Student_Record_System_project.dir/system.c.obj
-Student_Record_System_project.exe: CMakeFiles/Student_Record_System_project.dir/admin_privileges.c.obj
+Student_Record_System_project.exe: CMakeFiles/Student_Record_System_project.dir/privileges.c.obj
 Student_Record_System_project.exe: CMakeFiles/Student_Record_System_project.dir/build.make
 Student_Record_System_project.exe: CMakeFiles/Student_Record_System_project.dir/linklibs.rsp
 Student_Record_System_project.exe: CMakeFiles/Student_Record_System_project.dir/objects1.rsp
