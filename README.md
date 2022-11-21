@@ -7,7 +7,7 @@
 2. User mode
 and the user has to choose the mode at the beginning.
 
-● If the user chooses admin mode, ask him for the password and he has these
+## ● If the user chooses admin mode, ask him for the password and he has these
 privileges:
 1. Add student record
 2. Remove student record
@@ -16,7 +16,7 @@ privileges:
 5. Edit admin password
 6. Edit student grade
 
-● When the user chooses “student mode”, ask him for the id and the password, and he
+## ● When the user chooses “student mode”, ask him for the id and the password, and he
 has these privileges:
 1. View your record.
 2. Edit your password.
